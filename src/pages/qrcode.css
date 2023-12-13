@@ -1,0 +1,79 @@
+.qrcard {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:rgb(250, 249, 249);
+    width:1100px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .qrcard1 {
+    border: 1px solid rgb(9, 9, 9);
+    padding-right: 30px;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgb(236, 240, 243);
+    margin: 10px;
+  }
+  .qrcard2 {
+    border: 1px solid rgb(9, 9, 9);
+    margin-left: 30px;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: rgb(236, 240, 243);
+    margin: 10px;
+  }
+  .qrcard3 {
+    border-color: #050505;
+    border: #050505;
+    border-style:double;
+    width: 300px;
+    height: 300px;
+    border-radius: 1px;
+    background-color: rgb(246, 248, 249);
+    margin-top: 10px;
+    margin-left: 90px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  input {
+    border: 1px solid #050505;
+    border-radius: 5px;
+    height: 50px;
+    line-height: normal;
+    color: #0a0909;
+    display: block;
+    width: 80%;
+    user-select: auto;
+    font-size: 16px;
+    padding: 0 6px;
+    margin-left: 40px;
+    hover{
+        border: 3px solid #eeeef3;
+    }; 
+  }
+  button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #393936;
+    border: 1px solid #0b0b0b;
+    font-size: 13px;
+    height: 31px;
+    padding: 0 11px;
+    text-align: center;
+    width: 1%;
+    min-width: 180px;
+    font-weight: 500;
+    color: #f3f7f7;
+    :hover{
+        background: #F7CA00;
+        border-color: #F2C200;
+        box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    }
+  }
